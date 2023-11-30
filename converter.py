@@ -78,13 +78,14 @@ def add_sentence_ids(ccl: et._ElementTree) -> et._ElementTree:
     simple_doc_id = uuid4()
     sentence_num = 0
 
-    for chunk in get_ccl_chunks(ccl):
-        for sentence in chunk:
-            add_element(sentence, 'sentence_id', f"{simple_doc_id}_{sentence_num}")
-            # add sentence_id for each token
-            for tok in sentence.iterfind('tok'):
-                add_element(tok, 'sentence_id', f"{simple_doc_id}_{sentence_num}")
-            sentence_num += 1
+    for speech in get_ccl_chunks(ccl):
+        for par in speech:
+            for sentence in par:
+                add_element(sentence, 'sentence_id', f"{simple_doc_id}_{sentence_num}")
+                # add sentence_id for each token
+                for tok in sentence.iterfind('tok'):
+                    add_element(tok, 'sentence_id', f"{simple_doc_id}_{sentence_num}")
+                sentence_num += 1
 
     return ccl
 

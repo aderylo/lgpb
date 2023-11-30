@@ -17,7 +17,7 @@ METACOMMENT = "METACOMMENT"
 
 @dataclass
 class Transcript():
-    comittee: str
+    committee: str
     title: str
     sitting_date: str #a date would be better but some transcripts are from multiple dates
     chairman: str
@@ -74,7 +74,7 @@ def parse_header(header_pars):
     metadata = {}
     #metadata["filename"] = filename
     metadata["corpus_name"] = header_texts[0]
-    metadata["comittee_name"] = header_texts[1].split("=")[1].strip(" ")
+    metadata["committee_name"] = header_texts[1].split("=")[1].strip(" ")
     metadata["title"] = header_texts[2].split("=")[1].strip(" ")
     metadata["date"] = header_texts[3].split("=")[1].strip(" .")
     metadata["signature"] = header_texts[4]
@@ -83,7 +83,7 @@ def parse_header(header_pars):
     main_chair = main_chair.replace("Obradom przewodniczyli", "").replace("Obradom przewodniczy", "").strip(r"./ ")
     main_chair = name_to_person(main_chair)
     metadata["main_chair"] = main_chair
-    transcript = Transcript(comittee=metadata["comittee_name"],
+    transcript = Transcript(committee=metadata["committee_name"],
                             title=metadata["title"],
                             sitting_date=metadata["date"],
                             chairman=metadata["main_chair"],
