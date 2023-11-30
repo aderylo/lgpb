@@ -74,12 +74,11 @@ def parse_header(header_pars):
     metadata = {}
     #metadata["filename"] = filename
     metadata["corpus_name"] = header_texts[0]
-    metadata["comittee_name"] = header_texts[1]
+    metadata["comittee_name"] = header_texts[1].split("=")[1].strip(" ")
     metadata["title"] = header_texts[2].split("=")[1].strip(" ")
     metadata["date"] = header_texts[3].split("=")[1].strip(" .")
     metadata["signature"] = header_texts[4]
     metadata["inv"] = header_texts[5]
-    metadata["text"] = header_texts[6]
     main_chair = header_texts[8]
     main_chair = main_chair.replace("Obradom przewodniczyli", "").replace("Obradom przewodniczy", "").strip(r"./ ")
     main_chair = name_to_person(main_chair)
