@@ -27,7 +27,7 @@ def process_doc(doc):
     speeches = doc.pop("speeches")
     metadata = {k:v for k,v in doc.items()}
     processed_speeches = []
-    for speech in tqdm(speeches[:10]):
+    for speech in tqdm(speeches):
         pars = speech["pars"]
         if pars:
             #filtering out empty speeches
@@ -53,8 +53,10 @@ def main():
 
     out_data = []
 
+    doc_bin = spacy.tokens.DocBin()
     for doc in transcripts:
         processed_doc = process_doc(doc)
+        doc_bin.add(processed_doc)
         ccl = Converter.ccl_mapping([processed_doc])
         doc_id = str(uuid.uuid4())
         processed_datapoint = {"id": doc_id,
@@ -63,6 +65,8 @@ def main():
         out_data.append(processed_datapoint)
         ccl_path = os.path.join(CCL_OUTPATH, doc_id + ".xml")
         write_ccl(ccl, ccl_path)
+
+    doc_bin.to_disk("doc_bin.spacy")
 
     with open("processed_data.json", "w") as f:
         json.dump(out_data, f, ensure_ascii=False, indent=2)
