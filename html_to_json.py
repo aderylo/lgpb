@@ -11,6 +11,7 @@ from tqdm import tqdm
 
 name_cleaner = re.compile(r"^(Kol\.|Obywatel(ka)?\b|Ob\.|P\.|Pani?\b|Red\.|Dyr\.|Dyrektor\b|Prezes\b|Mec\.|Mecenas\b|Prokurator\b|Inż\.|Mgr\b|Dr\b|Doc\.|Prof\.|Generał\b|Gen\.|Poseł\b|Min\.|Minister\b|Premier\b|Wicepremier\b)", flags=re.IGNORECASE)
 chairman_switch = re.compile(r"(?:(przewodnictwo|obrad) (ob|prz)ejmuje)|(?:przewodniczy)", flags=re.IGNORECASE)
+whitespace = re.compile(r"\s+")
 
 
 METACOMMENT = "METACOMMENT"
@@ -92,6 +93,9 @@ def parse_header(header_pars):
     return metadata, transcript
 
 
+def clean_par(par):
+    return whitespace.sub(" ", par)
+
 HTML_DIR = "htmls"
 
 def main():
@@ -135,8 +139,11 @@ def main():
                     split_string = chairman_switch.sub("<SP>", child_content).split("<SP>") # hack
                     current_chairman = name_to_person(split_string[1].strip(r" ./"))
             else:
+                # speech content
                 if child_content:
-                    current_speech_pars.append(child.text_content())
+                    par_content = child.text_content()
+                    cleaned_par = clean_par(par_content)
+                    current_speech_pars.append(cleaned_par)
         speech = Speech(current_speaker, current_speech_pars)
         transcript.speeches.append(speech)
         transcripts.append(transcript)
