@@ -7,11 +7,11 @@ LOGIN_URL = URL + "/api_login"
 ADD_TEXT_URL = URL + "/api/text"
 QUERY_URL = URL + '/query_api/{corpus_id}/query'
 
-CCL_DIR = "ccls"
+CCL_DIR = "ccls_speaker"
 METADATA_FILE = "processed_data.json"
 
-COLLECTION_ID = 37
-COLLECTION_NAME = "test24"
+COLLECTION_ID = 82
+COLLECTION_NAME = "test25"
 
 USERNAME = "ryszardtuora@gmail.com"
 PASSWORD = "password1"
@@ -53,7 +53,7 @@ def main():
     with open(METADATA_FILE) as f:
         data = json.load(f)
 
-    for entry in data:
+    for entry in data]:
         add_text_response = index_doc(entry, authorization_header)
         print(add_text_response)
 

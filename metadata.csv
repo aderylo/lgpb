@@ -1,4 +1,4 @@
-,corpus_name,comittee_name,title,date,signature,inv,main_chair
+,corpus_name,committee_name,title,date,signature,inv,main_chair
 0,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Górnictwa,STENOGRAM z drugiego posiedzenia Podzespołu do spraw Górnictwa,20 lutego 1989 r,SYGNATURA= ,INW= 46060,Przewodniczący
 1,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Gospodarki i Polityki Społecznej,STENOGRAM z dwunastego posiedzenia Zespołu do spraw Gospodarki i Polityki Społecznej,1 kwietnia 1989 r,SYGNATURA= 9540/2,INW= 46026,Witold Trzeciakowski
 2,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Reform Politycznych,STENOGRAM z czwartego posiedzenia Zespołu do spraw Reform Politycznych,9 marca 1989 r,SYGNATURA= 9540/4,INW= 45999,Janusz Reykowski
@@ -41,7 +41,7 @@
 39,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Reformy Prawa i Sądów,STENOGRAM z szóstego posiedzenia Podzespołu do spraw Reformy Prawa i Sądów,7 marca 1989 r,SYGNATURA= C9540/5,INW= 46086,Adam Strzembosz
 40,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Polityki Mieszkaniowej,STENOGRAM z pierwszego posiedzenia Podzespołu do spraw Polityki Mieszkaniowej,15 lutego 1989 r,SYGNATURA= C9540/8,INW= 46033,Mieczysław Serwiński
 41,KORPUS= Obrady Okrągłego Stołu,"Podzespół do spraw Nauki, Oświaty i Postępu Technicznego","STENOGRAM z czwartego posiedzenia Podzespołu do spraw Nauki, Oświaty i Postępu Technicznego",10 marca 1989 r,SYGNATURA= ,INW= 46052,Przewodniczący
-42,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Górnictwa,STENOGRAM z siódmego posiedzenia Podzespołu do spraw Górnictwa,14 marca 1989 r,SYGNATURA= ,INW= ,Marian Gustek
+42,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Górnictwa,STENOGRAM z siódmego posiedzenia Podzespołu do spraw Górnictwa,14 marca 1989 r,SYGNATURA= ,INW= 46065,Marian Gustek
 43,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Rolnictwa,STENOGRAM z pierwszego posiedzenia Podzespołu do spraw Rolnictwa,15 lutego 1989 r,SYGNATURA= ,INW= 46068,Andrzej Stelmachowski
 44,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Pluralizmu Związkowego,STENOGRAM z ósmego posiedzenia Zespołu do spraw Pluralizmu Związkowego,23 marca 1989 r,SYGNATURA= 9540/3,INW= 46012,Tadeusz Mazowiecki
 45,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Pluralizmu Związkowego,STENOGRAM z dziewiątego posiedzenia Zespołu do spraw Pluralizmu Związkowego,30 marca 1989 r,SYGNATURA= 9540/3,INW= 46013,Romuald Sosnowski
@@ -72,7 +72,7 @@
 70,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Stowarzyszeń i Samorządu Terytorialnego,STENOGRAM z posiedzenia Grupy do spraw Stowarzyszeń [6],7 marca 1989 r,SYGNATURA= C9540/14,INW= 46047,Jan Brol
 71,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Reformy Prawa i Sądów,STENOGRAM z pierwszego posiedzenia Podzespołu do spraw Reformy Prawa i Sądów,11 lutego 1989 r,SYGNATURA= C9540/5,INW= 46081,Łukasz Balcer
 72,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Pluralizmu Związkowego,STENOGRAM z dziesiątego posiedzenia Zespołu do spraw Pluralizmu Związkowego,4 kwietnia 1989 r,SYGNATURA= 9540/3,INW= 46014,Aleksander Kwaśniewski
-73,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Górnictwa,STENOGRAM z ósmego posiedzenia Podzespołu do spraw Górnictwa,17 marca 1989 r,SYGNATURA= ,INW= ,Alojzy Pietrzyk
+73,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Górnictwa,STENOGRAM z ósmego posiedzenia Podzespołu do spraw Górnictwa,17 marca 1989 r,SYGNATURA= ,INW= 46066,Alojzy Pietrzyk
 74,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Stowarzyszeń i Samorządu Terytorialnego,STENOGRAM z posiedzenia Grupy do spraw Samorządu Terytorialnego [2],25 lutego 1989 r,SYGNATURA= C9540/14,INW= 46043,Jerzy Regulski
 75,KORPUS= Obrady Okrągłego Stołu,Zespół do spraw Gospodarki i Polityki Społecznej,STENOGRAM z siódmego posiedzenia Zespołu do spraw Gospodarki i Polityki Społecznej,16 marca 1989 r,SYGNATURA= 9540/2,INW= 46021,Władysław Baka
 76,KORPUS= Obrady Okrągłego Stołu,Podzespół do spraw Rolnictwa,STENOGRAM z piątego posiedzenia Podzespołu do spraw Rolnictwa,8 marca 1989 r,SYGNATURA= ,INW= 46072,Andrzej Stelmachowski

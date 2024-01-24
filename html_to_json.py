@@ -162,12 +162,6 @@ if __name__ == "__main__":
 
 
 #TODO kierownictwo przekazuję, przedwodnictwo obejmuje itd.
-# wygenerować doci spacy
-# otagować doci spacy mowami
-# zapisać pliki
-# skopiować pliki do kontenera
-# przekonwertować pliki w ccle
-# zaindeksować ccle
 #TODO add metacomments
 #TODO merging docs and annotating them with metadata
 #TODO po przerwie as speaker name

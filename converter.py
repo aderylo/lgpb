@@ -254,6 +254,7 @@ class Converter():
                         nps = False  # no preceding space
                         for tok in cls.get_tokens(sent):
                             ccl_token = cls.token_mapping(tok, curr_ann_tok_id)
+                            add_element(ccl_token, 'speaker', author)
                             if nps:
                                 add_element(ccl_token, 'nps', 'true')
                             ccl_sentence.append(ccl_token)
