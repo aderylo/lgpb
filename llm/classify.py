@@ -27,7 +27,7 @@ def classify(client: OpenAI, model: str, labels: list[str], text: str) -> str:
         response_format=response_format,
         logprobs=True,
     )
-    print(response)
+
     content = json.loads(response.choices[0].message.content)
     return content["classification"]
 
