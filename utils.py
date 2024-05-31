@@ -1,12 +1,19 @@
 import json
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Optional
+
+
+@dataclass
+class Annotation:
+    moot_points_so_far: List[str] = field(default_factory=list)
+    stances_towards_moot_points: dict = field(default_factory=dict)
 
 
 @dataclass
 class Speech:
     speaker: str
     pars: List[str] = field(default_factory=list)
+    annotations: Optional[List[Annotation]]
 
 
 @dataclass
