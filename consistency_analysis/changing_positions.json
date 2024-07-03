@@ -1,0 +1,342 @@
+{
+	"Aleksander Paszyński": {
+		"moot_points": {
+			"Propozycje organizacyjne dotyczące ustalenia zespołu tematów do dyskusji i hierarchii tych tematów": [
+				"positive",
+				"positive",
+				"positive",
+				"positive",
+				"neutral"
+			],
+			"Propozycje organizacyjne dotyczące numeracji tematów do dyskusji": [
+				"positive",
+				"positive",
+				"positive",
+				"positive"
+			],
+			"Propozycje organizacyjne dotyczące posegregowania tematów w podstawowe bloki": [
+				"positive",
+				"neutral",
+				"positive",
+				"positive"
+			],
+			"Propozycje organizacyjne dotyczące podziału tematów dotyczących polityki mieszkaniowej na trzy bloki": [
+				"positive",
+				"neutral"
+			],
+			"Propozycje organizacyjne dotyczące zestawienia postulatów do realizacji jako program działań doraźnych": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"Konieczność uwzględnienia powiązań zewnętrznych w sferze polityki gospodarczej i społecznej w dyskusjach dotyczących polityki mieszkaniowej": [
+				"positive",
+				"negative"
+			],
+			"Konieczność osiągnięcia równowagi na rynku inwestycyjnym": [
+				"neutral",
+				"neutral"
+			],
+			"Konieczność skorzystania z instytucji referendum w celu uzyskania wiarygodnej akceptacji postulatów społecznych": [
+				"positive",
+				"neutral",
+				"neutral"
+			],
+			"Propozycja mianowania inż. Janowskiego trzecim współprzewodniczącym negocjacji": [
+				"positive",
+				"neutral"
+			]
+		},
+		"side": "Opozycja"
+	},
+	"Marian Wysocki": {
+		"moot_points": {
+			"Propozycja ustalenia stałego dnia tygodnia na spotkania": [
+				"positive",
+				"neutral"
+			],
+			"Potrzeba ustalenia stałego poziomu dotacji lub środków publicznych w polityce mieszkaniowej": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Bogdan Łukasiewicz": {
+		"moot_points": {
+			"Potrzeba uwzględnienia interesów rolników indywidualnych w planowaniu inwestycyjnym oraz planowaniu przestrzennym i gospodarce ziemią": [
+				"positive",
+				"positive"
+			],
+			"Potrzeba szczegółowego omówienia planowania przestrzennego": [
+				"positive",
+				"negative"
+			],
+			"Potrzeba zwiększenia harmonizacji między budownictwem a rolnictwem w planowaniu przestrzennym": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Janusz Bielak": {
+		"moot_points": {
+			"Potrzeba zwiększenia harmonizacji między budownictwem a rolnictwem w planowaniu przestrzennym": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Adam Andrzejewski": {
+		"moot_points": {
+			"Konieczność uwzględnienia powiązań zewnętrznych w sferze polityki gospodarczej i społecznej w dyskusjach dotyczących polityki mieszkaniowej": [
+				"positive",
+				"positive"
+			],
+			"Potrzeba uwzględnienia powiązań zewnętrznych w sferze polityki gospodarczej i społecznej w dyskusjach dotyczących polityki mieszkaniowej": [
+				"positive",
+				"positive"
+			],
+			"Potrzeba reorientacji strategii rozwojowej": [
+				"positive",
+				"neutral",
+				"positive"
+			],
+			"Konieczność ustalenia przyszłych proporcji inwestycyjnych": [
+				"neutral",
+				"neutral"
+			],
+			"Konieczność zachowania równowagi inwestycyjnej": [
+				"positive",
+				"neutral"
+			],
+			"Potrzeba zwiększenia pozycji budownictwa mieszkaniowego w stosunku do innych segmentów rynku budowlanego": [
+				"negative",
+				"negative",
+				"neutral"
+			],
+			"Potrzeba uwzględnienia specyfiki zaopatrzenia materiałowego na rynku mieszkaniowym": [
+				"negative",
+				"positive",
+				"positive"
+			],
+			"Krytyka nadmiernego hasłowego formułowania zagadnień": [
+				"negative",
+				"negative"
+			],
+			"Krytyka rozwiązywania skomplikowanych problemów poprzez rzucanie haseł": [
+				"negative",
+				"negative"
+			],
+			"Dyskusja na temat mieszkania jako towaru": [
+				"negative",
+				"neutral"
+			]
+		},
+		"side": "Bezstronni"
+	},
+	"Bolesław Kierski": {
+		"moot_points": {
+			"Potrzeba dokładnych obliczeń i symulacji uwzględniających granice działania, wymagających zmian w prawie cywilnym i finansowaniu, by określić stosowane instrumenty": [
+				"negative",
+				"negative"
+			],
+			"Potrzeba realizacji kompleksowego programu rozwiązań systemowych w budownictwie": [
+				"negative",
+				"negative"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Lucjan Mieczkowski": {
+		"moot_points": {
+			"Propozycje organizacyjne dotyczące ustalenia zespołu tematów do dyskusji i hierarchii tych tematów": [
+				"positive",
+				"neutral"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Hanna Kulesza": {
+		"moot_points": {
+			"Rola państwa w zapewnieniu infrastruktury osiedlowej, w tym wodociągów, kanalizacji, ciepłownictwa, ulic, szkół i przedszkoli": [
+				"positive",
+				"positive"
+			],
+			"Konieczność zapewnienia kredytów mieszkaniowych z oprocentowaniem nie przekraczającym 3-4% w stosunku do obowiązującej stopy procentowej": [
+				"positive",
+				"negative"
+			],
+			"Rola państwa w zapewnieniu odpowiedzialności za przemysł budowlany poprzez wprowadzenie mechanizmów ekonomicznych": [
+				"positive",
+				"neutral",
+				"neutral"
+			],
+			"Rola gwarancji środków finansowych w kontekście mieszkań zarezerwowanych w kolejce mieszkaniowej": [
+				"positive",
+				"negative",
+				"negative"
+			],
+			"Kwestia braku recept na temat kolejki mieszkaniowej": [
+				"positive",
+				"negative"
+			],
+			"Propozycja wprowadzenia czynszów ekonomicznych": [
+				"positive",
+				"negative"
+			]
+		},
+		"side": "Opozycja"
+	},
+	"Roman Nowicki": {
+		"moot_points": {
+			"Konieczność zapewnienia ubezpieczeń społecznych w celu realizacji opracowanych działań": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"Potrzeba stworzenia banku budownictwa mieszkaniowego jako instytucjonalnego ubezpieczenia realizacji polityki mieszkaniowej": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"Rola przedstawicielstwa społecznego przy premierze w monitorowaniu i opiniowaniu działań w budownictwie mieszkaniowym": [
+				"positive",
+				"positive"
+			],
+			"Potrzeba opracowania programu doraźnych działań rządu w zakresie budownictwa mieszkaniowego po zakończeniu obrad w celu monitorowania interesów i poglądów": [
+				"positive",
+				"positive"
+			],
+			"Propozycja przerzucenia części spraw z plenarnych obrad na zespół roboczy w celu przygotowania konkretnych propozycji": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Zbigniew Zawistowski": {
+		"moot_points": {
+			"Potrzeba formalnego sposobu akceptacji pewnych spraw przez bardzo szeroką opinię społeczną": [
+				"neutral",
+				"negative"
+			],
+			"Konieczność skorzystania z instytucji referendum w celu uzyskania wiarygodnej akceptacji postulatów społecznych": [
+				"positive",
+				"positive"
+			],
+			"Rola państwa i obywateli w kontekście odpowiedzialności za stan rzeczy w budownictwie": [
+				"negative",
+				"neutral",
+				"neutral"
+			]
+		},
+		"side": "Opozycja"
+	},
+	"Władysław Dominiak": {
+		"moot_points": {
+			"Potrzeba rozpatrzenia spraw wykraczających poza gospodarkę mieszkaniową": [
+				"positive",
+				"neutral"
+			],
+			"Potrzeba rozszerzenia rynku mieszkaniowego w podsektorze spółdzielczości mieszkaniowej": [
+				"positive",
+				"negative"
+			],
+			"Potrzeba skutecznego wielostronnego działania państwa na rzecz rozwoju gospodarki mieszkaniowej": [
+				"negative",
+				"neutral",
+				"neutral"
+			],
+			"Potrzeba sformułowania postulatu zapewniającego trwały udział środków publicznych w obszarze budownictwa": [
+				"positive",
+				"positive"
+			],
+			"Potrzeba osiągnięcia równowagi pomiędzy liczbą gospodarstw domowych a liczbą mieszkań do 2050 lub 2100 roku": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Opozycja"
+	},
+	"Wacław Tuszyński": {
+		"moot_points": {
+			"Mieszkanie jako towar na rynku": [
+				"positive",
+				"neutral"
+			],
+			"Konieczność doprowadzenia do swobodnego obrotu mieszkaniami, zapewniającego korzyści obywatelom, a nie państwu": [
+				"positive",
+				"neutral"
+			],
+			"Potrzeba przekierowania całego udziału dochodu narodowego przeznaczonego na budownictwo mieszkaniowe na formy podmiotowe": [
+				"positive",
+				"neutral",
+				"negative"
+			],
+			"Konieczność określenia polityki nośników energetycznych kraju w kontekście budownictwa mieszkaniowego": [
+				"positive",
+				"negative"
+			],
+			"Potrzeba uwzględnienia oszczędności energii w bazie materiałowej budownictwa mieszkaniowego": [
+				"positive",
+				"negative"
+			],
+			"Potrzeba wytworzenia bazy materiałowej na budowę domów umożliwiającej oszczędzanie energii poprzez pozyskiwanie ciepła z otoczenia": [
+				"positive",
+				"negative"
+			],
+			"Rola materiałów i wyrobów dla budownictwa mieszkaniowego oraz remontu jako elementów wspierających rozwój sektora": [
+				"positive",
+				"neutral"
+			]
+		},
+		"side": "Bezstronni"
+	},
+	"Ryszard Jajszczyk": {
+		"moot_points": {
+			"Rola polityki czynszowej w systemie finansowania mieszkaniowego": [
+				"neutral",
+				"positive",
+				"positive"
+			],
+			"Forma lokatorska jako jedna z metod zaspakajania potrzeb mieszkaniowych": [
+				"positive",
+				"positive"
+			],
+			"Forma własnościowa jako trzecia metoda zaspakajania potrzeb mieszkaniowych": [
+				"positive",
+				"positive",
+				"negative"
+			],
+			"Propozycja wprowadzenia systemu powszechnych dodatków mieszkaniowych wkalkulowanych do płac": [
+				"neutral",
+				"positive"
+			]
+		},
+		"side": "Bezstronni"
+	},
+	"Czesław Uhma": {
+		"moot_points": {
+			"Rola państwa w określaniu potrzeb budownictwa mieszkaniowego oraz alokacji środków": [
+				"positive",
+				"positive"
+			]
+		},
+		"side": "Rząd"
+	},
+	"Lech Radke": {
+		"moot_points": {
+			"Potrzeba uwzględnienia mieszkań zakładowych przy planowaniu systemów finansowania budowy mieszkań": [
+				"positive",
+				"positive"
+			],
+			"Rola władz lokalnych w pobudzaniu różnych struktur inwestorskich w zależności od potrzeb lokalnych": [
+				"neutral",
+				"neutral"
+			]
+		},
+		"side": "Rząd"
+	}
+}
